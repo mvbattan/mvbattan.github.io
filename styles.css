@@ -12,7 +12,7 @@
 }
 
 .navigation-bar {
-  background: url("http://astropixels.com/milkyway/wide/images/MilkyWayMos12-05v.jpg");
+  background: url("resources/MilkyWayMos12-05v.jpg");
   color: white;
   font-family: 'Amatic SC', cursive;
   font-size: 48px;
@@ -40,7 +40,7 @@
 .aside {
   flex-grow: 1;
   font-family: 'Julius Sans One', sans-serif;
-  background: url("http://www.pixelstalk.net/wp-content/uploads/2016/04/Stars-wallpapers-HD-backgrounds-download.jpg");
+  background: url("resources/Stars-wallpapers-HD-backgrounds-download.jpg");
   box-shadow: 10px 10px 10px black;
   margin: 10px 10px;
   border-radius: 20px;
