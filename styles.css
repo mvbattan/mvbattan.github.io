@@ -1,0 +1,94 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+}
+
+.react-logo {
+  max-width: 64px;
+  max-height: 64px;
+  animation: spin 10s infinite;
+}
+
+.navigation-bar {
+  background: url("http://astropixels.com/milkyway/wide/images/MilkyWayMos12-05v.jpg");
+  color: white;
+  font-family: 'Amatic SC', cursive;
+  font-size: 48px;
+  text-align: center;
+  box-shadow: 0px 0px 4px black;
+  padding: 20px;
+  display: flex;
+  text-shadow: 0 0 10px white;
+  justify-content: space-around;
+}
+
+.mid-body {
+  display: flex;
+}
+
+.main-container {
+  padding: 20px 20px;
+  flex-grow: 10;
+}
+
+.main-title {
+  text-shadow: 5px 5px 4px gray;
+}
+
+.aside {
+  flex-grow: 1;
+  font-family: 'Julius Sans One', sans-serif;
+  background: url("http://www.pixelstalk.net/wp-content/uploads/2016/04/Stars-wallpapers-HD-backgrounds-download.jpg");
+  box-shadow: 10px 10px 10px black;
+  margin: 10px 10px;
+  border-radius: 20px;
+}
+
+.aside-button {
+  padding: 20px 20px;
+  color: gray;
+  text-shadow: 0 0 10px white;
+}
+
+.aside-button:hover {
+  color: white;
+}
+
+.footer-name {
+  text-shadow: 0 0 10px black;
+}
+
+.footer {
+  display: flex;
+  border-top: 1px gray solid;
+  justify-content: flex-end;
+  flex-direction: column;
+  font-family: 'Cinzel', serif;
+}
+
+.fa {
+  margin: 10px 20px;
+}
+
+@keyframes spin {
+    from {
+      transform:rotate(0deg);
+    }
+    to {
+      transform:rotate(360deg);
+    }
+}
+
+
+@media only screen and (max-width: 758px) {
+  .mid-body {
+    display: block;
+  }
+
+  .aside {
+    display: flex;
+    justify-content: space-around;
+  }
+}
